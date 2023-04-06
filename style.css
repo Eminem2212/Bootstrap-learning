@@ -1,0 +1,58 @@
+* {
+  color: white;
+  background-color: black;
+}
+
+.IMportCont {
+  color: gray;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+.PhraseInput {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70vw;
+  color: aliceblue;
+  -webkit-box-shadow: 20px;
+          box-shadow: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+  border-radius: 20px solid;
+  border: 2px solid #c2bfbf;
+  border-radius: 7px;
+  font-size: 18px;
+  height: 10rem;
+  outline: none;
+  padding: 10px;
+  resize: none;
+}
+
+.JsonInput {
+  border: 2px solid #c2bfbf;
+  border-radius: 7px;
+  font-size: 18px;
+  height: 10rem;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  width: 70vw;
+  color: aliceblue;
+  -webkit-box-shadow: 20px;
+          box-shadow: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+}
+
+.JsonInput2 {
+  width: 70vw;
+}
+/*# sourceMappingURL=style.css.map */
