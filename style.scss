@@ -1,19 +1,20 @@
-*{
+* {
     color: white;
     background-color: black;
 }
 
-.IMportCont{
+
+
+
+.IMportCont {
     color: gray;
     justify-content: center;
     padding: 10px;
-
 }
-.PhraseInput{
-    width: fit-content;
-    justify-content: center;
+.PhraseInput {
+    justify-content: center !important;
     width: 70vw;
-    color: aliceblue;
+    color: black;
     box-shadow: 20px;
     box-sizing: border-box;
     background-color: white;
@@ -25,9 +26,22 @@
     outline: none;
     padding: 10px;
     resize: none;
+
+    .btn-success2 {
+        border-radius: 2px solid;
+
+        .button {
+            transition-duration: 0.4s;
+        }
+
+        .btn-success:hover {
+            background-color: green; /* Green */
+            color: white;
+        }
+    }
 }
 
-.JsonInput{
+.JsonInput {
     border: 2px solid #c2bfbf;
     border-radius: 7px;
     font-size: 18px;
@@ -36,11 +50,40 @@
     padding: 10px;
     resize: none;
     width: 70vw;
-    color: aliceblue;
+    color: black;
     box-shadow: 20px;
     box-sizing: border-box;
     background-color: white;
+    align-items: baseline;
 }
-.JsonInput2{
+.JsonInput2 {
     width: 70vw;
+    justify-content: center;
+    border-radius: 7px;
+    font-size: 18px;
+    height: 2rem;
+    color: black;
+}
+
+.btn-success {
+    width: 140px;
+    height: 40px;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.btn-success:hover {
+    background-color: blue; /* Green */
+    color: white;
+}
+
+.Socials{
+    justify-content: center !important;
+    width: 100%;
+    height: 70px;
+    gap: 8;
+    border-radius: 2px solid;
+    text-decoration: none;
 }
